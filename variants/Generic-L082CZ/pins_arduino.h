@@ -1,5 +1,5 @@
 /*
-  Copyright (c) 2015 Arduino LLC.  All right reserved.
+  Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
 
   This library is free software; you can redistribute it and/or
   modify it under the terms of the GNU Lesser General Public
@@ -16,22 +16,6 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#pragma once
+// API compatibility
+#include "variant.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-extern void init(void);
-
-extern uint32_t SystemCoreClock;
-
-#undef F_CPU
-#define F_CPU SystemCoreClock
-
-extern uint32_t __FlashBase;
-extern uint32_t __FlashLimit;
-
-#ifdef __cplusplus
-}
-#endif

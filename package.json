@@ -1,0 +1,6 @@
+{
+    "description":"Arduino Wiring-based Framework (ST STM32L0 Core)",
+    "name":"framework-arduinostm32l0",
+    "url":"https://github.com/tve/ArduinoCore-stm32l0",
+    "version":"0.1.0"
+}
